@@ -3,13 +3,28 @@ package br.com.brunotonia.informatic.VO;
 /**
  * Created by bruno on 03/06/16.
  */
-public class Endereços {
+public class Enderecos {
 
     private Long id;
     private Long cliente;
     private String rua;
     private String numero;
     private String cidade;
+
+    public Enderecos(Long cliente, String rua, String numero, String cidade) {
+        this.cliente = cliente;
+        this.rua = rua;
+        this.numero = numero;
+        this.cidade = cidade;
+    }
+
+    public Enderecos(Long id, Long cliente, String rua, String numero, String cidade) {
+        this.id = id;
+        this.cliente = cliente;
+        this.rua = rua;
+        this.numero = numero;
+        this.cidade = cidade;
+    }
 
     public Long getId() {
         return id;

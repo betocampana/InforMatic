@@ -54,8 +54,6 @@ public class ClientesDAO {
             Clientes cliente = new Clientes(id, nome, telefone, email);
             clientes.add(cliente);
         }
-
-
         return clientes;
     }
 
