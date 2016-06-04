@@ -11,8 +11,7 @@ public interface EnderecosConstants {
     String COLUMN_NUMERO  = "senha";
     String COLUMN_CIDADE  = "cidade";
 
-    String CREATE_TABLE =
-            "CREATE TABLE [" + TABLE_NAME + "] ( " +
+    String CREATE_TABLE = "CREATE TABLE [" + TABLE_NAME + "] ( " +
                     "[" + COLUMN_ID      + "] INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, " +
                     "[" + COLUMN_CLIENTE + "] INTEGER NOT NULL, " +
                     "[" + COLUMN_RUA + "] TEXT NOT NULL, " +
@@ -21,7 +20,6 @@ public interface EnderecosConstants {
                     "FOREIGN KEY([" + COLUMN_CLIENTE +"]) REFERENCES " + ClientesConstants.TABLE_NAME +
                     "(" +  ClientesConstants.COLUMN_ID + "))";
 
-    String DROP_TABLE =
-            "DROP TABLE IF EXISTS " + TABLE_NAME;
+    String DROP_TABLE = "DROP TABLE IF EXISTS " + TABLE_NAME;
 
 }

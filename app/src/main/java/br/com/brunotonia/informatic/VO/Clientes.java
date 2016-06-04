@@ -10,6 +10,19 @@ public class Clientes {
     private String telefone;
     private String email;
 
+    public Clientes(String nome, String telefone, String email) {
+        this.nome = nome;
+        this.telefone = telefone;
+        this.email = email;
+    }
+
+    public Clientes(Long id, String nome, String telefone, String email) {
+        this.id = id;
+        this.nome = nome;
+        this.telefone = telefone;
+        this.email = email;
+    }
+
     public Long getId() {
         return id;
     }
