@@ -94,7 +94,7 @@ public class EnderecosDAO {
                 new String[]{id.toString()},
                 null,
                 null,
-                EnderecosConstants.COLUMN_ID
+                EnderecosConstants.COLUMN_RUA
         );
         while (cursor.moveToNext()) {
             Long cliente = cursor.getLong(cursor.getColumnIndex(EnderecosConstants.COLUMN_CLIENTE));
