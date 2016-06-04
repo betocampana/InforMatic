@@ -7,16 +7,19 @@ public class ServicosOS {
 
     private Long id;
     private Long ordemDeServico;
+    private Long servico;
     private Float valor;
 
-    public ServicosOS(Long ordemDeServico, Float valor) {
+    public ServicosOS(Long ordemDeServico, Long servico, Float valor) {
         this.ordemDeServico = ordemDeServico;
+        this.servico = servico;
         this.valor = valor;
     }
 
-    public ServicosOS(Long id, Long ordemDeServico, Float valor) {
+    public ServicosOS(Long id, Long ordemDeServico, Long servico, Float valor) {
         this.id = id;
         this.ordemDeServico = ordemDeServico;
+        this.servico = servico;
         this.valor = valor;
     }
 
@@ -34,6 +37,14 @@ public class ServicosOS {
 
     public void setOrdemDeServico(Long ordemDeServico) {
         this.ordemDeServico = ordemDeServico;
+    }
+
+    public Long getServico() {
+        return servico;
+    }
+
+    public void setServico(Long servico) {
+        this.servico = servico;
     }
 
     public Float getValor() {
