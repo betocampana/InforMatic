@@ -19,7 +19,9 @@
         <activity android:name=".VIEW.OSMenuActivity" />
         <activity android:name=".VIEW.ClientesViewActivity" />
         <activity android:name=".VIEW.ClientesListarActivity" />
-        <activity android:name=".VIEW.TesteGit"></activity>
+        <activity android:name=".VIEW.ServicoMenuActivity" />
+        <activity android:name=".VIEW.HardwareActivity" />
+        <activity android:name=".VIEW.SoftwareActivity"></activity>
     </application>
 
 </manifest>
