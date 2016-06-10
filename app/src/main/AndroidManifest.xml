@@ -18,7 +18,8 @@
         <activity android:name=".VIEW.ClientesMenuActivity" />
         <activity android:name=".VIEW.OSMenuActivity" />
         <activity android:name=".VIEW.ClientesViewActivity" />
-        <activity android:name=".VIEW.ClientesListarActivity"></activity>
+        <activity android:name=".VIEW.ClientesListarActivity" />
+        <activity android:name=".VIEW.TesteGit"></activity>
     </application>
 
 </manifest>
